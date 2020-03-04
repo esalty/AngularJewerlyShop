@@ -8,10 +8,11 @@ import { CartService } from '../services/cart.service';
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
-
   products = this.geProducts();
+
   constructor(private cartService: CartService) { }
-geProducts(): ProductModel[] {
+
+  geProducts(): ProductModel[] {
     return this.cartService.getProducts();
   }
 
