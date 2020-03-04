@@ -1,0 +1,8 @@
+<p>cart works!</p>
+<div *ngIf="products.length > 0; else elseBlock"> <ul>
+    <li *ngFor="let product of products">
+      {{ product.id }}, {{ product.name }}, {{ product.sku }}, {{ product.price }}
+    </li>
+</ul>
+ </div>
+<ng-template #elseBlock>Empty cart</ng-template>
