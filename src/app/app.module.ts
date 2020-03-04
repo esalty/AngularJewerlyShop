@@ -18,7 +18,7 @@ import { ProductsService } from './product/services/products.service';
   imports: [
     BrowserModule
   ],
-  providers: [ProductsService, CartComponent],
+  // providers: [ProductsService, CartComponent], // Зачем тут ProductsService, CartComponent?
   bootstrap: [AppComponent]
 })
 export class AppModule { }
