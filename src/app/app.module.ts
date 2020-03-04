@@ -5,7 +5,6 @@ import { FirstComponent } from './first/components/first.component';
 import { CartComponent } from './cart/components/cart.component';
 import { ProductComponent } from './product/components/product/product.component';
 import { ProductlistComponent } from './product/components/products-list/productlist.component';
-import { ProductsService } from './product/services/products.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,7 @@ import { ProductsService } from './product/services/products.service';
   imports: [
     BrowserModule
   ],
-  // providers: [ProductsService, CartComponent], // Зачем тут ProductsService, CartComponent?
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
