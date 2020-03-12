@@ -4,5 +4,7 @@
       {{ product.id }}, {{ product.name }}, {{ product.sku }}, {{ product.price }}
     </li>
 </ul>
+<button (click)="onClick()">Add Product</button>
+<p>{{clickMessage}}</p>
  </div>
 <ng-template #elseBlock>Empty cart</ng-template>

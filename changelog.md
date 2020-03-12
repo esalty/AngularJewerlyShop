@@ -4,3 +4,9 @@
 4. Created ProductComponent and buy button
 5. Created ProductModel, ProductService, ProductListComponent, used ngFor
 6. Created CartComponent, CartService, uased ngif+else, ngfor 
+7. Added - AppModule, 
+    - CartModule, 
+    - ProductsModule, 
+    - OrdersModule, 
+    - SharedModule
+8. 
